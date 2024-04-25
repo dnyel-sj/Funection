@@ -1,6 +1,6 @@
-# برنامه بررسی اینکه یک عدد پالادریوم است یا خیر
+# برنامه بررسی اینکه یک عدد پالیندروم است یا خیر
 
-# تابع برای تشخیص درست یا غلط بودن پالادریوم
+# تابع برای تشخیص درست یا غلط بودن پالیندروم
 
 def is_palindrome(num):
 
@@ -20,9 +20,9 @@ def main():
   num = input("Yek add vared kn: ")
 
   if is_palindrome(num):
-    print(f"{num} Add paladerom ast!")
+    print(f"{num} Add palindrome ast!")
   else:
-    print(f"{num} Add paladerom nist!")
+    print(f"{num} Add palindrome nist!")
 
 if __name__ == "__main__":
   main()
