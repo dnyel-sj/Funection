@@ -24,5 +24,4 @@ def main():
   else:
     print(f"{num} Add palindrome nist!")
 
-if __name__ == "__main__":
-  main()
+main()
